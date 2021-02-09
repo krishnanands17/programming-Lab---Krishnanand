@@ -1,6 +1,17 @@
 #Print out all colors from color-list1 not contained in color-list2. 
 
-color_list_1 = set(["White", "Black", "Red","Blue"])
-color_list_2 = set(["Red", "Green","pink"])
-
-print(color_list_1.difference(color_list_2))
+n=int(input("Enter a limit:"))
+a=[]
+b=[]
+c[]
+print("Enter 1st and 2nd list:")
+for i in range(0,n):
+    print("1st:",end="")
+    a.append(input())
+    print("2nd:",end="")
+    b.append(input())
+for i in range(0,n):
+    if a[i]==b[i]:
+        continue
+    else:
+        print(a[i])
