@@ -1,10 +1,10 @@
 #Find gcd of 2 numbers.
 
-x= int(input("Enter 1st number: "))
-y= int(input("Enter 2nd number: "))
+a = int(input("Enter 1st number: "))
+b = int(input("Enter 2nd number: "))
 i = 1
-while(i <= x and i <= y):
-  if(x % i == 0 and y% i == 0):
+while i<=a and i<=b:
+  if a%i==0 and b%i==0:
     gcd = i
   i = i + 1
-print("GCD  :", gcd)
+print("GCD is", gcd)
