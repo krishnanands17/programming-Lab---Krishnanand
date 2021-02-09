@@ -1,14 +1,17 @@
 #Find biggest of 3 numbers entered.
 
-x = int(input("Enter 1st number: "))
-y = int(input("Enter 2nd number: "))
-z = int(input("Enter 3rd number: "))
- 
-if (x > y) and (x > z):
-   largest = x
-elif (y > x) and (y > z):
-   largest = y
+a=int(input("a:"))
+b=int(input("b:"))
+c=int(input("c:"))
+if a>b:
+    if a>c:
+        print(a ," a is greater")
+    else:
+        print(c ," c is greater")
+elif b>a:
+    if b>c:
+        print(b ," b Is greater")
+    else:
+        print(c ," c is greater")
 else:
-   largest = z
- 
-print("The largest number is",largest)
+    print(c ," c is greater")
