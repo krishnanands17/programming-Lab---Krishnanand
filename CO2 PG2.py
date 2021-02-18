@@ -1,9 +1,10 @@
 n=int(input("Enter a limit:"))
-a=0
-b=1
-s=0
+x=0
+y=1
+z=0
 for i in range(0,n):
-    s=a+b
-    a=b
-    b=s
-    print(s)
+    z=x+y
+    x=y
+    y=z
+    print(z)
+
