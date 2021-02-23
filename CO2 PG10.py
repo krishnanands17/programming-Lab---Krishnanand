@@ -1,6 +1,6 @@
-n=int(input("Enter a number:"))
-print(f"factor of {n} are:")
-for i in range(0,n):
-    for j in range(0,n):
-        if i*j==n:
-            print(i,j)
+n=int(input("Enter the number:"))
+print(f"Factor of {n} are:")
+for x in range(0,n):
+    for y in range(0,n):
+        if(x*y)==n:
+            print(x,y)
