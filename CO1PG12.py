@@ -1,4 +1,3 @@
-f=input("Enter a file name:")
-fs=f.split(".")
-print("Extension is:.",fs[1])
-
+x=input("Enter the filename:")
+f=x.split(".")
+print("Extension is:.",f[1])
